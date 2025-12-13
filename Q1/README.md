@@ -1,8 +1,8 @@
 ## Problem description
-
 To assist the English club with their word games, the teacher requires a program that can automatically identify and group "anagrams" from a list of user inputs.
 The goal is to design a Java program that reads a specific number of words, cleans the data by removing duplicates (treating uppercase and lowercase as the same), and then organizes them into groups. In this specific context, words are grouped if they share the same character composition or if one is a subset of the other (e.g., "banana" and "ban").
 The program must handle the input without using advanced Java collections (like `ArrayList` or `HashSet`), relying instead on standard arrays and logic to filter, compare, and display the results. Words that do not fit into any group must be listed separately at the end.
+
 ---
 
 ## Solution Explanation
